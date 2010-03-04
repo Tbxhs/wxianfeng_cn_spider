@@ -1,0 +1,15 @@
+a simple spider to spide www.wxianfeng.cn
+
+this is a demo , how to use ruby code a spider to spide web page , if u download source 
+
+just run  ruby spider_wxianfeng_cn_main.rb in shell
+
+then u can find backup file(html) under folder file 
+
+and blog's images will save in  images folder
+
+if u want more information :
+
+blog : www.wxianfeng.cn
+twitter : http://twitter.com/fl1429
+gmail : wang.fl1429@gmail.com
