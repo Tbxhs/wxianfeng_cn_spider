@@ -103,7 +103,7 @@ def save_image imgs
       client = HTTPClient.new
       body = client.get_content(url,UA)
       if body
-        File.open("./images/#{img_name}","w") { |file| file.write(body) }
+        File.open("./images/#{img_name}","wb") { |file| file.write(body) }
       end
      
     rescue => err
